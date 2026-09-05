@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="அறிவியல் காலவரிசை - முக்கிய Dashboard">
+
+    <title>அறிவியல் காலவரிசை | Dashboard</title>
+
+    <link rel="stylesheet" href="main-dashboard.css">
+</head>
+
+<body>
+
+    <!-- ================================
+         HEADER
+    ================================= -->
+
+    <header class="dashboard-header">
+
+        <div class="dashboard-container header-content">
+
+            <a href="index.html" class="dashboard-logo">
+                <span class="logo-icon">🔬</span>
+                <span>அறிவியல் காலவரிசை</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="மெனு திறக்கவும்">
+                ☰
+            </button>
+
+            <nav class="dashboard-nav" id="dashboardNav">
+
+                <a href="index.html">முகப்பு</a>
+
+                <a href="#scientists">விஞ்ஞானிகள்</a>
+
+                <a href="#inventions">கண்டுபிடிப்புகள்</a>
+
+                <a href="creator.html">👨‍💻 Creator</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================================
+         MAIN
+    ================================= -->
+
+    <main>
+
+        <!-- HERO -->
+        <section class="dashboard-hero">
+
+            <div class="dashboard-container">
+
+                <div class="hero-badge">
+                    ⚡ அறிவியல் மையம்
+                </div>
+
+                <h1>
+                    அறிவியல்
+                    <span>Dashboard</span>
+                </h1>
+
+                <p>
+                    உலகை மாற்றிய விஞ்ஞானிகள்,
+                    கண்டுபிடிப்புகள் மற்றும் அறிவியல்
+                    முன்னேற்றங்களை ஒரே இடத்தில்
+                    அறிந்து கொள்ளுங்கள்.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUICK STATS -->
+        <section class="quick-stats">
+
+            <div class="dashboard-container stats-grid">
+
+                <div class="stat-card">
+                    <span class="stat-icon">👨‍🔬</span>
+                    <strong>08</strong>
+                    <p>விஞ்ஞானிகள்</p>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-icon">💡</span>
+                    <strong>08</strong>
+                    <p>கண்டுபிடிப்புகள்</p>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-icon">🔬</span>
+                    <strong>06</strong>
+                    <p>முக்கிய கண்டுபிடிப்புகள்</p>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-icon">🚀</span>
+                    <strong>∞</strong>
+                    <p>அறிவியல் அறிவு</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             QUICK ACTIONS
+        ================================= -->
+
+        <section class="quick-actions">
+
+            <div class="dashboard-container">
+
+                <div class="section-heading">
+
+                    <span>⚡ QUICK ACTIONS</span>
+
+                    <h2>
+                        விரைவான செயல்கள்
+                    </h2>
+
+                    <p>
+                        நீங்கள் பார்க்க விரும்பும்
+                        அறிவியல் பகுதியைத் தேர்வு செய்யுங்கள்.
+                    </p>
+
+                </div>
+
+
+                <div class="action-grid">
+
+                    <!-- Scientists -->
+                    <a
+                        href="#scientists"
+                        class="action-card">
+
+                        <span class="action-icon">
+                            👨‍🔬
+                        </span>
+
+                        <div>
+                            <h3>விஞ்ஞானிகள்</h3>
+
+                            <p>
+                                உலகின் சிறந்த
+                                விஞ்ஞானிகளைப் பற்றி அறியுங்கள்.
+                            </p>
+                        </div>
+
+                        <span class="action-arrow">
+                            →
+                        </span>
+
+                    </a>
+
+
+                    <!-- Inventions -->
+                    <a
+                        href="#inventions"
+                        class="action-card">
+
+                        <span class="action-icon">
+                            💡
+                        </span>
+
+                        <div>
+                            <h3>கண்டுபிடிப்புகள்</h3>
+
+                            <p>
+                                மனித வாழ்க்கையை மாற்றிய
+                                கண்டுபிடிப்புகளைப் பாருங்கள்.
+                            </p>
+                        </div>
+
+                        <span class="action-arrow">
+                            →
+                        </span>
+
+                    </a>
+
+
+                    <!-- Creator -->
+                    <a
+                        href="creator.html"
+                        class="action-card creator-action">
+
+                        <span class="action-icon">
+                            👨‍💻
+                        </span>
+
+                        <div>
+                            <h3>Creator</h3>
+
+                            <p>
+                                இந்த அறிவியல் தளத்தை
+                                உருவாக்கியவரைப் பற்றி அறியுங்கள்.
+                            </p>
+                        </div>
+
+                        <span class="action-arrow">
+                            →
+                        </span>
+
+                    </a>
+
+
+                    <!-- Timeline -->
+                    <a
+                        href="index.html#timeline"
+                        class="action-card">
+
+                        <span class="action-icon">
+                            🕒
+                        </span>
+
+                        <div>
+                            <h3>அறிவியல் காலவரிசை</h3>
+
+                            <p>
+                                அறிவியலின் முக்கிய
+                                காலகட்டங்களைப் பாருங்கள்.
+                            </p>
+                        </div>
+
+                        <span class="action-arrow">
+                            →
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             SCIENTISTS SECTION
+        ================================== -->
+
+        <section
+            class="dashboard-section"
+            id="scientists">
+
+            <div class="dashboard-container">
+
+                <div class="section-heading">
+
+                    <span>👨‍🔬 SCIENTISTS</span>
+
+                    <h2>
+                        முக்கிய விஞ்ஞானிகள்
+                    </h2>
+
+                    <p>
+                        மனித அறிவியலின் வளர்ச்சிக்கு
+                        பங்களித்த சிறந்த விஞ்ஞானிகள்.
+                    </p>
+
+                </div>
+
+
+                <div class="person-grid">
+
+
+                    <!-- Galileo -->
+                    <article class="person-card">
+
+                        <span class="person-number">01</span>
+
+                        <span class="person-icon">
+                            🔭
+                        </span>
+
+                        <h3>கலிலியோ</h3>
+
+                        <p>
+                            வானியல் மற்றும்
+                            இயற்பியலின் முன்னோடி.
+                        </p>
+
+                        <a
+                            href="scientists/galileo.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- Newton -->
+                    <article class="person-card">
+
+                        <span class="person-number">02</span>
+
+                        <span class="person-icon">
+                            🍎
+                        </span>
+
+                        <h3>ஐசக் நியூட்டன்</h3>
+
+                        <p>
+                            ஈர்ப்பு விசை மற்றும்
+                            இயக்க விதிகளின் முன்னோடி.
+                        </p>
+
+                        <a
+                            href="scientists/newton.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- Einstein -->
+                    <article class="person-card">
+
+                        <span class="person-number">03</span>
+
+                        <span class="person-icon">
+                            ⚡
+                        </span>
+
+                        <h3>ஆல்பர்ட் ஐன்ஸ்டீன்</h3>
+
+                        <p>
+                            சார்பியல் கோட்பாட்டின்
+                            புகழ்பெற்ற விஞ்ஞானி.
+                        </p>
+
+                        <a
+                            href="scientists/einstein.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- Marie Curie -->
+                    <article class="person-card">
+
+                        <span class="person-number">04</span>
+
+                        <span class="person-icon">
+                            ☢️
+                        </span>
+
+                        <h3>மேரி கியூரி</h3>
+
+                        <p>
+                            கதிரியக்க ஆய்வில்
+                            முன்னோடி விஞ்ஞானி.
+                        </p>
+
+                        <a
+                            href="scientists/marie-curie.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- Darwin -->
+                    <article class="person-card">
+
+                        <span class="person-number">05</span>
+
+                        <span class="person-icon">
+                            🧬
+                        </span>
+
+                        <h3>சார்லஸ் டார்வின்</h3>
+
+                        <p>
+                            பரிணாம வளர்ச்சி கோட்பாட்டின்
+                            முக்கிய விஞ்ஞானி.
+                        </p>
+
+                        <a
+                            href="scientists/darwin.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- Tesla -->
+                    <article class="person-card">
+
+                        <span class="person-number">06</span>
+
+                        <span class="person-icon">
+                            ⚡
+                        </span>
+
+                        <h3>நிகோலா டெஸ்லா</h3>
+
+                        <p>
+                            மின்சார தொழில்நுட்பத்தின்
+                            முக்கிய முன்னோடி.
+                        </p>
+
+                        <a
+                            href="scientists/tesla.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- CV Raman -->
+                    <article class="person-card">
+
+                        <span class="person-number">07</span>
+
+                        <span class="person-icon">
+                            🔬
+                        </span>
+
+                        <h3>சி.வி. ராமன்</h3>
+
+                        <p>
+                            ஒளியியல் துறையில்
+                            புகழ்பெற்ற இந்திய விஞ்ஞானி.
+                        </p>
+
+                        <a
+                            href="scientists/cv-raman.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- Abdul Kalam -->
+                    <article class="person-card">
+
+                        <span class="person-number">08</span>
+
+                        <span class="person-icon">
+                            🚀
+                        </span>
+
+                        <h3>அப்துல் கலாம்</h3>
+
+                        <p>
+                            இந்திய விண்வெளி மற்றும்
+                            ஏவுகணைத் திட்டங்களின் முன்னோடி.
+                        </p>
+
+                        <a
+                            href="scientists/abdul-kalam.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- அடுத்த Part-ல் Inventions + Footer வரும் -->
+              <!-- =================================
+             INVENTIONS SECTION
+        ================================== -->
+
+        <section
+            class="dashboard-section inventions-dashboard"
+            id="inventions">
+
+            <div class="dashboard-container">
+
+                <div class="section-heading">
+
+                    <span>💡 INVENTIONS</span>
+
+                    <h2>
+                        உலகை மாற்றிய கண்டுபிடிப்புகள்
+                    </h2>
+
+                    <p>
+                        மனித வாழ்க்கையை மாற்றிய
+                        முக்கியமான கண்டுபிடிப்புகளை
+                        அறிந்து கொள்ளுங்கள்.
+                    </p>
+
+                </div>
+
+
+                <div class="invention-grid">
+
+
+                    <!-- 01 Wheel -->
+                    <article class="invention-card">
+
+                        <span class="invention-number">
+                            01
+                        </span>
+
+                        <span class="invention-icon">
+                            ⚙️
+                        </span>
+
+                        <h3>
+                            சக்கரம்
+                        </h3>
+
+                        <p>
+                            மனித வரலாற்றின் மிகப்
+                            பழமையான முக்கிய கண்டுபிடிப்புகளில் ஒன்று.
+                        </p>
+
+                        <a
+                            href="inventions/wheel.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- 02 Telescope -->
+                    <article class="invention-card">
+
+                        <span class="invention-number">
+                            02
+                        </span>
+
+                        <span class="invention-icon">
+                            🔭
+                        </span>
+
+                        <h3>
+                            தொலைநோக்கி
+                        </h3>
+
+                        <p>
+                            தொலைவில் உள்ள வானியல் பொருட்களை
+                            ஆராய உதவிய கருவி.
+                        </p>
+
+                        <a
+                            href="inventions/telescope.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- 03 Electricity -->
+                    <article class="invention-card">
+
+                        <span class="invention-number">
+                            03
+                        </span>
+
+                        <span class="invention-icon">
+                            ⚡
+                        </span>
+
+                        <h3>
+                            மின்சாரம்
+                        </h3>
+
+                        <p>
+                            நவீன உலகின் பெரும்பாலான
+                            தொழில்நுட்பங்களுக்கு அடிப்படை.
+                        </p>
+
+                        <a
+                            href="inventions/electricity.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- 04 Telephone -->
+                    <article class="invention-card">
+
+                        <span class="invention-number">
+                            04
+                        </span>
+
+                        <span class="invention-icon">
+                            ☎️
+                        </span>
+
+                        <h3>
+                            தொலைபேசி
+                        </h3>
+
+                        <p>
+                            தொலைவில் உள்ளவர்களுடன்
+                            குரல் மூலம் தொடர்பு கொள்ள உதவிய கண்டுபிடிப்பு.
+                        </p>
+
+                        <a
+                            href="inventions/telephone.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- 05 Radio -->
+                    <article class="invention-card">
+
+                        <span class="invention-number">
+                            05
+                        </span>
+
+                        <span class="invention-icon">
+                            📻
+                        </span>
+
+                        <h3>
+                            வானொலி
+                        </h3>
+
+                        <p>
+                            கம்பியில்லா தகவல் தொடர்பு
+                            வளர்ச்சியில் முக்கியமான கண்டுபிடிப்பு.
+                        </p>
+
+                        <a
+                            href="inventions/radio.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- 06 Computer -->
+                    <article class="invention-card">
+
+                        <span class="invention-number">
+                            06
+                        </span>
+
+                        <span class="invention-icon">
+                            💻
+                        </span>
+
+                        <h3>
+                            கணினி
+                        </h3>
+
+                        <p>
+                            கணக்கீடு, தகவல் செயலாக்கம்
+                            மற்றும் நவீன தொழில்நுட்பத்தின் அடித்தளம்.
+                        </p>
+
+                        <a
+                            href="inventions/computer.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- 07 Internet -->
+                    <article class="invention-card">
+
+                        <span class="invention-number">
+                            07
+                        </span>
+
+                        <span class="invention-icon">
+                            🌐
+                        </span>
+
+                        <h3>
+                            இணையம்
+                        </h3>
+
+                        <p>
+                            உலகம் முழுவதும் தகவல்களை
+                            இணைக்கும் மிகப்பெரிய வலையமைப்பு.
+                        </p>
+
+                        <a
+                            href="inventions/internet.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+
+                    <!-- 08 Artificial Intelligence -->
+                    <article class="invention-card ai-invention-card">
+
+                        <span class="invention-number">
+                            08
+                        </span>
+
+                        <span class="invention-icon">
+                            🤖
+                        </span>
+
+                        <h3>
+                            செயற்கை நுண்ணறிவு
+                        </h3>
+
+                        <p>
+                            கணினிகள் மனித அறிவாற்றல் போன்ற
+                            செயல்களைச் செய்ய உதவும் தொழில்நுட்பம்.
+                        </p>
+
+                        <a
+                            href="inventions/artificial-intelligence.html"
+                            class="quick-action">
+
+                            Quick Action →
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             CREATOR QUICK ACTION
+        ================================== -->
+
+        <section class="creator-dashboard-section">
+
+            <div class="dashboard-container">
+
+                <div class="creator-dashboard-card">
+
+                    <div class="creator-card-icon">
+                        👨‍💻
+                    </div>
+
+                    <div class="creator-card-content">
+
+                        <span>
+                            ABOUT THE CREATOR
+                        </span>
+
+                        <h2>
+                            இந்த தளத்தை உருவாக்கியவர்
+                        </h2>
+
+                        <p>
+                            அறிவியல் மற்றும் தொழில்நுட்பத்தை
+                            எளிமையாகக் கற்றுக்கொள்ளும் நோக்கில்
+                            உருவாக்கப்பட்ட இந்த தளத்தின்
+                            Creator பக்கத்தைப் பாருங்கள்.
+                        </p>
+
+                    </div>
+
+                    <a
+                        href="creator.html"
+                        class="creator-button">
+
+                        Creator Page →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             BACK TO HOME
+        ================================== -->
+
+        <section class="dashboard-end">
+
+            <div class="dashboard-container">
+
+                <h2>
+                    🚀 அறிவியலை தொடர்ந்து ஆராயுங்கள்
+                </h2>
+
+                <p>
+                    இன்னும் பல அறிவியல் தகவல்களை
+                    அறிய Science Timeline-க்கு திரும்புங்கள்.
+                </p>
+
+                <a
+                    href="index.html"
+                    class="back-home-button">
+
+                    ← முகப்புக்குத் திரும்பு
+
+                </a>
+
+            </div>
+
+        </section>
+                <!-- =================================
+             FOOTER
+        ================================== -->
+
+        <footer class="dashboard-footer">
+
+            <div class="dashboard-container footer-content">
+
+                <div class="footer-brand">
+
+                    <div class="footer-logo">
+                        🔬 அறிவியல் காலவரிசை
+                    </div>
+
+                    <p>
+                        அறிவியலின் பயணத்தை
+                        அறிந்து கொள்வோம்.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-links">
+
+                    <a href="index.html">
+                        முகப்பு
+                    </a>
+
+                    <a href="#scientists">
+                        விஞ்ஞானிகள்
+                    </a>
+
+                    <a href="#inventions">
+                        கண்டுபிடிப்புகள்
+                    </a>
+
+                    <a href="creator.html">
+                        Creator
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © <span id="currentYear"></span>
+                    அறிவியல் காலவரிசை.
+                    அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.
+                </p>
+
+            </div>
+
+        </footer>
+
+    </main>
+
+
+    <!-- JavaScript -->
+
+    <script src="main-dashboard.js"></script>
+
+</body>
+</html>
